@@ -1,0 +1,9 @@
+customtax.display_vocab:
+  path: "/vocabulary/{vocabid}/{listid}"
+  defaults:
+    _controller: '\Drupal\customtax\Controller\vocabcontroller::display'
+    _title: "Vocabulary"
+    listid: ""
+    vocabid: ""
+  requirements:
+    _permission: "access content"     
